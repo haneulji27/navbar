@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/01b5dbc634.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <div class="logo__left">
+          <i class="fab fa-js-square logo__icon"></i>
+          <a class="logo__title" href="index.html">Portfolio</a>
+        </div>
+        <div class="logo__right">
+          <button class="navbar__toggleBtn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <ul class="navbar__menus">
+        <li class="menus__item">Home</li>
+        <li class="menus__item">About</li>
+        <li class="menus__item">Projects</li>
+        <li class="menus__item">Testimonials</li>
+        <li class="menus__item">Contact</li>
+      </ul>
+
+      <ul class="navbar__links">
+        <li class="links__link">
+          <a href="https://github.com/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="links__link">
+          <a href="https://slack.com/intl/ko-kr/" target="_blank">
+            <i class="fab fa-slack"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
