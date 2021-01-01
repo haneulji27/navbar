@@ -1,3 +1,5 @@
 # Responsive Nav Bar UI Component
 
-[Dream Coding](https://www.youtube.com/watch?v=X91jsJyZofw)
+출처 [Dream Coding](https://www.youtube.com/watch?v=X91jsJyZofw)
+
+Project [Responsive Nav Bar UI Component](https://haneulji27.github.io/navbar/)
